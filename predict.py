@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-
+import numpy as np
 # Custom page config
 st.set_page_config(page_title="Driver Churn Predictor", page_icon="🚗", layout="centered")
 
