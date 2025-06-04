@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-import numpy as np
+
 import pandas as pd
 import numpy as np
 # Custom page config
@@ -36,6 +36,8 @@ st.markdown("""
 # Load model
 with open("xgmodel.pkl", "rb") as f:
     model = pickle.load(f)
+
+
 
 # Load pre-encoded data
 df = pd.read_csv("pre_encoded_data.csv")
